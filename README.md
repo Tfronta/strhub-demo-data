@@ -1,11 +1,13 @@
 # STRhub Demo Data
 
-Lightweight public dataset for **STRhub**, containing preloaded Short Tandem Repeat (STR) regions from a single sample of the *1000 Genomes Project* for testing and educational visualization in **IGV.js**.
+Lightweight public dataset for **[STRhub](https://strhub.app)**, the open-access platform for forensic STR genetics, containing preloaded Short Tandem Repeat (STR) regions from a single sample of the *1000 Genomes Project* for testing and educational visualization in **IGV.js**.
 
 ## Overview
 
 This repository provides minimal BAM/BAI slices and BED definitions covering selected STR markers (e.g., CODIS and other forensic loci).  
 It is designed for **demo purposes only**, allowing users to explore IGV integration without downloading full genomes.
+
+These slices power two STRhub tools: the embedded [IGV viewer](https://strhub.app/tools/igv-viewer), which opens the hg38 window of each marker with this sample loaded, and the [FASTA generator](https://strhub.app/tools/fasta-generator). Marker coordinates and structures are described in the [STR marker catalog](https://strhub.app/catalog).
 
 - **Samples:** public reference sample, 1000 Genomes Project
 - **Reference:** GRCh38/hg38
@@ -37,4 +39,4 @@ If you use these demo datasets, please cite:
 ## Contact
 
 Created and maintained by **Tamara Frontanilla**  
-For inquiries: [https://strhub.org](https://strhub.org) (upcoming)
+For inquiries: [https://strhub.app/about](https://strhub.app/about)
