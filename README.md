@@ -19,6 +19,7 @@ The BAMs power the embedded [IGV viewer](https://strhub.app/tools/igv-viewer), w
 | `data/isfg_ranges_grch38.bed` | ISFG minimum ranges in GRCh38 for 22 autosomal STRs (the 20 CODIS core loci plus Penta D and Penta E), in HipSTR's BED format (0-based start), ready for `HipSTR --regions`. |
 | `data/isfg_ranges_grch38.tsv` | The same 22 ranges as a table (1-based, inclusive): locus, chromosome, start, end, length in bp, `ce_ref` (the CE allele designation of the GRCh38 reference over that range) and the repeat structure in STRNaming format. |
 | `slices/<marker>__slice.fa` | Short GRCh38 sequence around each marker, used by the FASTA generator. |
+| `tutorials/hipstr/` | Practice data of the [HipSTR tutorial](https://strhub.app/tools/hipstr/tutorial): the exact files of its video, with a download command (see its README). |
 
 ### ISFG minimum ranges
 
